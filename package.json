@@ -1,0 +1,30 @@
+{
+  "name": "scio-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for Scio",
+  "main": "index.js",
+  "bin": {
+    "scio": "./app.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MomsFriendlyDevCo/scio-cli"
+  },
+  "keywords": [
+    "cli",
+    "scio"
+  ],
+  "author": "Matt Carter <m@ttcarter.com>",
+  "license": "GPLv2",
+  "dependencies": {
+    "async-chainable": "^1.7.14",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "commander": "^2.8.1",
+    "homedir": "^0.6.0",
+    "ini": "^1.3.4",
+    "lodash": "^3.10.0",
+    "superagent": "^1.2.0"
+  }
+}
